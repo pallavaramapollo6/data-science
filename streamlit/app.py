@@ -8,15 +8,15 @@ iris = load_iris()
 model = joblib.load('mymodel.pkl')
 
 # 2. Set up the web page title
-st.title("Machine Learning Prediction App")
+st.title("Machine Learning Prediction App for Iris Flower type")
 
 # 3. Create input elements for features
-sepal_length = st.number_input("Enter Iris flower sepal length", min_value=0.0, max_value=100.0, value=10.0)
-sepal_width = st.slider("Select Iris flower sepal width", 0.0, 50.0, 25.0)
+sepal_length = st.number_input("Enter Iris flower sepal length", min_value=0.0, max_value=100.0, value=5.1)
+sepal_width = st.slider("Select Iris flower sepal width", 0.0, 50.0, 3.5)
 petal_length = st.number_input(
-    "Enter Iris flower petal length", min_value=0.0, max_value=100.0, value=5.0
+    "Enter Iris flower petal length", min_value=0.0, max_value=100.0, value=1.4
 )
-petal_width = st.slider("Select  Iris flower petal width", 0.0, 100.0, 50.0)
+petal_width = st.slider("Select  Iris flower petal width", 0.0, 100.0, 0.2)
 
 # 4. Make prediction when user clicks the button
 if st.button("Predict"):
