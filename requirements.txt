@@ -22,6 +22,7 @@ contourpy==1.4.0
 cycler==0.12.1
 debugpy==1.8.22
 defusedxml==0.7.1
+et_xmlfile==2.0.0
 executing==2.2.1
 fastjsonschema==2.22.2
 flatbuffers==25.12.19
@@ -78,6 +79,7 @@ nest-asyncio2==1.7.2
 notebook==7.6.2
 notebook_shim==0.2.4
 numpy==2.5.3
+openpyxl==3.1.5
 opt_einsum==3.4.0
 optree==0.20.0
 packaging==26.3
@@ -118,7 +120,6 @@ soupsieve==2.9.2
 stack-data==0.6.3
 starlette==1.6.0
 streamlit==1.64.0
-tensorflow==2.21.0
 termcolor==3.3.0
 terminado==0.18.1
 threadpoolctl==3.7.0
